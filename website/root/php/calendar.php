@@ -33,8 +33,8 @@ class Calendar {
     /**
     * print out the calendar
     */
-    public function show() {
-        $year  == null;
+    public function show($year) {
+        /*$year  == null;*/
          
         $month == null;
          

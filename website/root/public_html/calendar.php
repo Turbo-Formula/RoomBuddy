@@ -8,7 +8,7 @@
  
 	$calendar = new Calendar();
  
-	echo $calendar->show();
+	echo $calendar->show(2020);
 ?>
 </body>
 </html>  
