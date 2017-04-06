@@ -1,8 +1,8 @@
 <?php
 	$logFile = fopen($logFileName, "w") or die("Unable to open file!");
 	$txt = "John Doe\n";
-	fwrite($myfile, $txt);
+	fwrite($logFileName, $txt);
 	$txt = "Jane Doe\n";
-	fwrite($myfile, $txt);
-	fclose($myfile);
+	fwrite($logFileName, $txt);
+	fclose($logFileName);
 ?> 
