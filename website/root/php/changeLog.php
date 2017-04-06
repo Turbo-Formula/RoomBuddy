@@ -1,7 +1,7 @@
 <?php
 	$type = $changeType;
 
-	if ($changeType = "booking")
+	if ($type = "booking")
 	{
 		$revision = $rev."\n"; 
 		$logFileName = $changeType.$rNum.$rev
@@ -16,7 +16,7 @@
 		fclose($logFileName);
 	}
 
-	if ($changeType = "customer")
+	if ($type = "customer")
 	{
 		$revision = $rev."\n"; 
 		$logFileName = $changeType.$name.$rev
@@ -31,7 +31,7 @@
 		fclose($logFileName);
 	}
 	
-	if ($changeType = "catering")
+	if ($type = "catering")
 	{
 		$revision = $rev."\n"; 
 		$logFileName = $changeType.$name.$rev
@@ -46,7 +46,7 @@
 		fclose($logFileName);
 	}
 	
-	if ($changeType = "assets")
+	if ($type = "assets")
 	{
 		$revision = $rev."\n"; 
 		$logFileName = $changeType.$name.$rev
